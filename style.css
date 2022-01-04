@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    margin: 0 0 10px 0;
+}
+nav{
+    margin: 10px 0 0 0;
+}
+span{
+    margin: 10px 0 0 0;
+}
+.search{
+    margin: 0px 0 0 70px;
+    width: 600px;
+    height: 40px;
+}
+.icon-1{
+    margin: 0 0 0 100px;
+}
+.icon-3{
+    margin: 0 0 0 60px;
+}
+.btn{
+    width: 100px;
+    border: 2px solid #f2f5f3;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0;
+    padding: 8px;
+}
+.left{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-right: 2px solid #f2f5f3;
+}
+a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: #000;
+}
+span{
+    margin: 5px 20px;
+
+}
+a :hover{
+    cursor: pointer;
+    color: #000;
+}
+.mid{
+    display: inline;
+    width: 60%;
+    border-bottom: 2px solid #f2f5f3;
+    margin: 10px 0px 5px 8px  ;
+}
+.right{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    border-left:2px solid #f2f5f3;
+    width: 10%;
+    margin: 0 0 20px 60px;
+}
+.right p {
+    margin: 15px 0;
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+    width: 70%;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+img .cont {
+    height: 200px;
+    width: 200px;
+}
+.images img {
+    height: 200px;
+    width: 200px;
+}
+
+
+
